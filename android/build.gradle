@@ -55,6 +55,7 @@ android {
         }
     }
     defaultConfig {
+        applicationId "jp.espresso3389.pdf_render"
         minSdkVersion 21
     }
     lintOptions {
