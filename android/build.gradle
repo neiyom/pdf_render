@@ -29,22 +29,14 @@ android {
         namespace("jp.espresso3389.pdf_render")
     }
     
-    // compileSdkVersion 31
-    // ndkVersion "25.1.8937393"
+    compileSdkVersion 31
+    ndkVersion "25.1.8937393"
      
     // kotlinOptions {
     //     jvmTarget = '1.8'
     // }
 
-    compileSdkVersion 34
-
-    defaultConfig {
-        minSdkVersion 21
-        targetSdkVersion 34
-        versionCode 1
-        versionName "1.0"
-    }
-
+   
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_21
         targetCompatibility = JavaVersion.VERSION_21
@@ -62,9 +54,9 @@ android {
             path "CMakeLists.txt"
         }
     }
-    // defaultConfig {
-    //     minSdkVersion 21
-    // }
+    defaultConfig {
+        minSdkVersion 21
+    }
     lintOptions {
         disable 'InvalidPackage'
     }
